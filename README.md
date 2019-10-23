@@ -6,12 +6,12 @@ BY Xiaofang Wang
 ## Citation
 If you find the code  useful, please cite the following paper:
 
- @article{wang2016active,
+>  @article{wang2016active,
   title={Active colloids segmentation and tracking},
-  author={Wang, Xiaofang and Gao, Boyang and Masnou, Simon and Chen, Liming and Theurkauff, Isaac and Cottin-Bizonne, C{\'e}cile and Zhao, Yuqian and Shih, Frank},
+   author={Wang, Xiaofang and Gao, Boyang and Masnou, Simon and Chen, Liming and Theurkauff, Isaac and Cottin-Bizonne, C{\'e}cile and Zhao,   Yuqian and Shih, Frank},
   journal={Pattern Recognition},
   volume={60},
   pages={177--188},
   year={2016},
   publisher={Elsevier}
-}
+  }
