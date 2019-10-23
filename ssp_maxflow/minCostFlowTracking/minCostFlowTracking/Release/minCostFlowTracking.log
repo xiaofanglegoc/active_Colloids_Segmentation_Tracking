@@ -1,0 +1,38 @@
+﻿Build started 2013/11/20 16:23:14.
+     1>Project "E:\boyangCode\minCostFlowTracking\minCostFlowTracking\minCostFlowTracking.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\minCostFlowTracking.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BallTrackingMinCostFlow.cpp
+         BallTrackingMinCostFlow.cpp
+     1>BallTrackingMinCostFlow.cpp(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>BallTrackingMinCostFlow.cpp(53): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>BallTrackingMinCostFlow.cpp(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>BallTrackingMinCostFlow.cpp(77): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>BallTrackingMinCostFlow.cpp(138): warning C4018: '<' : signed/unsigned mismatch
+     1>BallTrackingMinCostFlow.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+     1>BallTrackingMinCostFlow.cpp(202): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(249) : see declaration of 'freopen'
+     1>BallTrackingMinCostFlow.cpp(210): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\minCostFlowTracking.res" minCostFlowTracking.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\boyangCode\minCostFlowTracking\Release\minCostFlowTracking.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\minCostFlowTracking.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\boyangCode\minCostFlowTracking\Release\minCostFlowTracking.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\boyangCode\minCostFlowTracking\Release\minCostFlowTracking.lib" /MACHINE:X86 Release\minCostFlowTracking.res
+         Release\BallTrackingMinCostFlow.obj
+         Generating code
+         Finished generating code
+         minCostFlowTracking.vcxproj -> E:\boyangCode\minCostFlowTracking\Release\minCostFlowTracking.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\boyangCode\minCostFlowTracking\Release\minCostFlowTracking.exe;#1" /manifest Release\minCostFlowTracking.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\minCostFlowTracking.unsuccessfulbuild".
+         Touching "Release\minCostFlowTracking.lastbuildstate".
+     1>Done Building Project "E:\boyangCode\minCostFlowTracking\minCostFlowTracking\minCostFlowTracking.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.96
