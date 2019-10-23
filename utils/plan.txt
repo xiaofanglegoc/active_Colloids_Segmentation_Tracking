@@ -1,0 +1,4 @@
+learnDemo:
+whiteninFilter
+makeBasis
+emPCANew (rename to basisRotate)
